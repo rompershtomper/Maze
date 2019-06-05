@@ -1,12 +1,12 @@
 ﻿namespace Mazes
 {
-	public static class EmptyMazeTask
+    public static class EmptyMazeTask
+    {
+	public static void MoveOut(Robot robot, int width, int height)
 	{
-		public static void MoveOut(Robot robot, int width, int height)
-		{
             GoRight(robot, width);
             GoDown(robot, height);
-		}
+	}
 
         static void GoRight(Robot robot, int steps)
         {
